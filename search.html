@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Poutine's World</title>
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+	<script src="js/jquery-1.11.3.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    
+</head>
+<body>
+	
+	<section data-role="page" id="search">
+		<header data-role="header" data-position="fixed">
+			<h1>Buscar Poutine</h1>
+			<img src="img/poutine.png" alt="">
+			<nav data-role="navbar">
+				<ul>
+					<li>
+						<a href="search.html" data-icon="search" class="ui-btn-active ui-state-persist"></a>
+					</li>
+					<li>
+						<a href="index.html" data-icon="home"></a>
+					</li>
+					<li>
+						<a href="createPoutine.html" data-icon="user"></a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<div data-role="content">
+			<form class="ui-filterable">
+			  <input id="myFilter" data-type="search" placeholder="Escribe el nombre del poutine">
+			</form>
+			<ul data-role="listview" data-inset="true" data-filter="true" data-input="#myFilter">
+				<li>
+					<a href="#">
+						<img src="img/pc.jpg" alt="">
+						<h2>Poutine Beta</h2>
+						<p>Poutine básico de 300 gr</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/pg.jpg" alt="">
+						<h2>Poutne Alfa</h2>
+						<p>Poutine básico de 1 ltr</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/xpB.jpg" alt="">
+						<h2>Xtreeme Poutine Beta</h2>
+						<p>Poutine chico cubierto con tocino y carne de hamburguesa</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/xpA.jpg" alt="">
+						<h2>Xtreeme Poutine Alfa</h2>
+						<p>Poutine grande (de 1 ltr) cubierto con tocino y carne de hamburguesa</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/pf.jpg" alt="">
+						<h2>Poutine Family</h2>
+						<p>4 poutines de 1 ltr cada uno</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<footer data-role="footer" data-position="fixed">
+			<h1>Eat poutine</h1>
+		</footer>
+	</section>
+</body>
+</html>
