@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Poutine's World</title>
 	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="css/style.css">
 	<script src="js/jquery-1.11.3.js"></script>
     <script src="js/jquery.mobile-1.4.5.min.js"></script>
     
@@ -28,7 +29,7 @@
 			</nav>
 		</header>
 
-		<div data-role="content">
+		<div data-role="content" class="bg-poutine">
 			<h3>Agregar un nuevo tipo de Poutine al menú</h3>
 			<form method="post" action="#">
 			  <label for="name">Nombre:</label>
@@ -38,8 +39,8 @@
 			  <label for="description"></label>
 			  <textarea name="description" id="description" cols="30" rows="10" placeholder="Introduzca una descriipción" required></textarea>
 			  <div data-role="controlgroup" data-type="horizontal">
-			  	<input type="submit" value="Guardar" >
-			  	<input type="reset" value="Cancelar" >
+			  	<input type="submit" value="Guardar" class="success">
+			  	<input type="reset" value="Cancelar" class="error">
 				</div>
 			</form>
 		</div>
