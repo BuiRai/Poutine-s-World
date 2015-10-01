@@ -1,0 +1,11 @@
+.bg-poutine{
+	background-image: url("../img/background.png");
+}
+
+.success{
+	background-color: #01DF01 !important;
+}
+
+.error{
+	background-color: #FF0000 !important;
+}

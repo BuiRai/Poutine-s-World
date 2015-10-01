@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Poutine's World</title>
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-1.11.3.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    
+</head>
+<body>
+	<section data-role="page" id="home">
+
+		<!--Info-->
+		<div data-role="panel" id="poutineInfo"> 
+		    <h2>Panel Header</h2>
+		    <p>El origen del nombre del plato es igualmente objeto de controversia. Algunas fuentes consideran que proviene de la palabra pudding, mientras que otras indican que poutine es una palabra del argot regional con el significado de "lío" o "mezcla rara". El nombre poutine ya era utilizado en otras regiones de Quebec y Canadá para llamar a los platos basados en la mezcla de patatas con otros productos, generalmente carne.</p>
+
+		    <a href="#home" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left">Close panel</a>
+		</div>
+
+		<header data-role="header" data-position="fixed">
+			<h1>Poutines World</h1>
+			<img src="img/poutine.png" alt="">
+			<nav data-role="navbar">
+				<ul>
+					<li>
+						<a href="search.html" data-icon="search"></a>
+					</li>
+					<li>
+						<a href="index.html" data-icon="home" class="ui-btn-active ui-state-persist"></a>
+					</li>
+					<li>
+						<a href="createPoutine.html" data-icon="user"></a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<div data-role="content" class="bg-poutine">
+			<div data-role="collapsible">
+				<h1>¿Qué es el poutine?</h1>
+				<p>Es un plato de la Gastronomía de Quebec. Está elaborado con patatas fritas, queso en grano fresco —normalmente cheddar muy poco curado— y salsa de carne. Se prepara añadiendo el queso troceado a las patatas fritas recién hechas, recubriendo la mezcla con la salsa de carne caliente, que funde el queso y ablanda las patatas. En ocasiones puede ser acompañado por otros ingredientes</p>
+			</div>
+			
+			<a href="#poutineInfo" class="ui-btn ui-corner-all">Ver más información</a>
+			
+		</div>
+
+		<footer data-role="footer" data-position="fixed">
+			<h1>Eat poutine</h1>
+		</footer>
+	</section>
+
+</body>
+</html>
