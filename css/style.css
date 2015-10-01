@@ -1,5 +1,4 @@
 .bg-poutine{
-	background-image: url("../img/background.jpg");
 	background-image: url("../img/background.png");
 }
 
@@ -16,4 +15,8 @@
 	font-family: verdana;
 	color: red;
 	background-image: url("../img/backgroundPopup.png");
+}
+
+.bg-panel{
+	
 }
