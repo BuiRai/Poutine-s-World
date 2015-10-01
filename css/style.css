@@ -18,5 +18,6 @@
 }
 
 .bg-panel{
-	
+	font-family: verdana;
+	background-image: url("../img/bg-panel.png");
 }
