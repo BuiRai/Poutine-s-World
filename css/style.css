@@ -1,5 +1,6 @@
 .bg-poutine{
 	background-image: url("../img/background.jpg");
+	background-image: url("../img/background.png");
 }
 
 .success{
@@ -8,4 +9,11 @@
 
 .error{
 	background-color: #FF0000 !important;
+}
+
+.bg-popup{
+	font-size: 20px;
+	font-family: verdana;
+	color: red;
+	background-image: url("../img/backgroundPopup.png");
 }
