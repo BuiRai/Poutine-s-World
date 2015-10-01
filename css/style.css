@@ -9,3 +9,10 @@
 .error{
 	background-color: #FF0000 !important;
 }
+
+.bg-popup{
+	font-size: 20px;
+	font-family: verdana;
+	color: red;
+	background-image: url("../img/backgroundPopup.png");
+}
